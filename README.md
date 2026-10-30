@@ -2,7 +2,7 @@
 
 面向中国矿业大学（北京）计算机相关专业学生的本科课程学习笔记。
 
-[打开课程导航页](index.html)
+[打开课程导航页](https://yzbcs.github.io/CS-courses-for-CUMTBers/)
 
 ## 课程目录
 
