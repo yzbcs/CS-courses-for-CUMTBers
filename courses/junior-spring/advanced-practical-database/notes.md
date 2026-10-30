@@ -6,8 +6,6 @@
 
 大型实用数据库概论
 2025年3月11日   16:53
-
-
 ### 第一章 诸论
 最精细的数据存储粒度是数据块
 数据扩展（extent）是由一组连续的数据块（data block）构成、比数据块更高一层的数据库逻辑存储结构，用于存储信息。
@@ -27,40 +25,24 @@ Oracle系统中，有两种不同的连接模式，即专用服务器模式和�
 系统全局区SGA是一组共享的内存结构，称之为SGA组件们，这里面包含了一个Oracle数据库实例的数据和控制信息
 程序全局区PGA是非共享内存区域，它包含的数据和控制信息只能被一个Oracle进程使用
 Oracle是以循环方式来使用重做日志文件的，所以每个数据库至少需要两个重做日志文件
-
-
 ### 一、实体及属性
 实体1：EMPLOYEES（员工）
 属性：employee_id（主键）、first_name、last_name、email、电话、入职时间、工作ID（外键）、薪资、commision_pct、经理ID（外键）、部门ID（外键）。
 这里的manager_id,也就是经理ID，是一个自连接的体现，通过分析图可以得出，员工包括经理，经理也是员工表中的一员，所以这个manager_id是员工实体的自引用。
-
-
 实体2：JOBS（职位）
 主键：job_id
 属性：job_id（主键）、职位名称、最低工资、最高工资。
-
-
 实体3：DEPARTMENTS（部门）
 属性：department_id（主键）、部门名称、经理ID（外键）、地点ID（外键）。
-
-
 实体4：LOCATIONS（地点）
 属性：location_id（主键）、地址、邮编、城市、省份、国家ID（外键）。
-
-
 实体5：COUNTRIES（国家）
 属性：country_id（主键）、国家名称、地区ID（外键）。
-
-
 实体6：REGIONS（地区）
 属性：region_id（主键）、地区名称。
-
-
 实体7：JOB_HISTORY（职位历史）
 属性：employee_id（主键）、 start_date(主键）、end_date、职位ID（外键）、部门ID（外键）。
 这里是多主键，即复合主键：employee_id + start_date
-
-
 ### 二、实体之间的关系
 JOBS与 EMPLOYEES ：一对多关系。一个职位对应有多个员工。
 DEPARTMENTS 与EMPLOYEES ：一对多关系。一个部门下有多个员工，每个员工属于一个部门。
@@ -72,11 +54,12 @@ DEPARTMENTS 与LOCATIONS：多对一关系。一个部门位于一个地点。
 LOCATIONS 与COUNTRIES：多对一关系。一个地点位于一个国家。
 COUNTRIES 与REGIONS：多对一关系。一个国家属于一个地区。
 
-
----
-
-## 原版页面
+## 排版页面
 
 ### 第 1 页
 
 ![大型实用数据库概论 课程笔记第 1 页](../../../assets/previews/advanced-practical-database/notes/page-01.jpg)
+
+### 第 2 页
+
+![大型实用数据库概论 课程笔记第 2 页](../../../assets/previews/advanced-practical-database/notes/page-02.jpg)

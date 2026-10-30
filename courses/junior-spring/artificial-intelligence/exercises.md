@@ -6,7 +6,7 @@
 
 这一部分以图片内容为主，请直接浏览下方页面或下载 PDF。
 
-## 原版页面
+## 排版页面
 
 ### 第 1 页
 
@@ -43,3 +43,23 @@
 ### 第 9 页
 
 ![人工智能 习题第 9 页](../../../assets/previews/artificial-intelligence/exercises/page-09.jpg)
+
+### 第 10 页
+
+![人工智能 习题第 10 页](../../../assets/previews/artificial-intelligence/exercises/page-10.jpg)
+
+### 第 11 页
+
+![人工智能 习题第 11 页](../../../assets/previews/artificial-intelligence/exercises/page-11.jpg)
+
+### 第 12 页
+
+![人工智能 习题第 12 页](../../../assets/previews/artificial-intelligence/exercises/page-12.jpg)
+
+### 第 13 页
+
+![人工智能 习题第 13 页](../../../assets/previews/artificial-intelligence/exercises/page-13.jpg)
+
+### 第 14 页
+
+![人工智能 习题第 14 页](../../../assets/previews/artificial-intelligence/exercises/page-14.jpg)
