@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="中国矿业大学（北京）计算机科学本科课程笔记">
+  <title>CUMTB 计算机科学课程笔记</title>
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <header class="hero">
+    <nav>
+      <a class="brand" href="index.html"><span>CS</span> CUMTBers</a>
+      <a class="repo-link" href="https://github.com/yzbcs/CS-courses-for-CUMTBers">GitHub 仓库</a>
+    </nav>
+    <div class="hero-content">
+      <p class="eyebrow">COURSE NOTES · 课程笔记</p>
+      <h1>把专业课知识<br>整理成可以继续传下去的笔记</h1>
+      <p class="hero-copy">中国矿业大学（北京）计算机相关专业本科课程资料，提供在线阅读与 PDF 下载。</p>
+      <div class="stats" aria-label="课程资料统计">
+        <div><strong>8</strong><span>门课程</span></div>
+        <div><strong>3</strong><span>个学期</span></div>
+        <div><strong>79</strong><span>页资料</span></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="catalog" aria-labelledby="catalog-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">COURSE CATALOG</p>
+          <h2 id="catalog-title">课程目录</h2>
+        </div>
+        <label class="search-box">
+          <span>搜索</span>
+          <input id="course-search" type="search" placeholder="课程名称或关键词" autocomplete="off">
+        </label>
+      </div>
+      <div class="filters" aria-label="按学期筛选">
+        <button class="active" data-filter="all">全部</button>
+        <button data-filter="junior-fall">大三上</button>
+        <button data-filter="junior-spring">大三下</button>
+        <button data-filter="senior-fall">大四上</button>
+      </div>
+      <div id="course-grid" class="course-grid">
+
+        <article class="course-card" data-semester="junior-fall" data-search="计算机网络 大三上 网络体系结构、交换、路由、传输层与应用层等基础内容。 网络体系结构 路由 tcp/ip">
+          <div class="course-number">01</div>
+          <div class="course-meta">大三上 · 15 页</div>
+          <h2>计算机网络</h2>
+          <p>网络体系结构、交换、路由、传输层与应用层等基础内容。</p>
+          <div class="tags"><span>网络体系结构</span><span>路由</span><span>TCP/IP</span></div>
+          <div class="card-actions">
+            <a class="primary" href="https://github.com/yzbcs/CS-courses-for-CUMTBers/blob/main/courses/junior-fall/computer-networks/README.md">阅读笔记</a>
+            <a href="assets/downloads/computer-networks.pdf" download>下载 PDF</a>
+          </div>
+        </article>
+
+        <article class="course-card" data-semester="junior-fall" data-search="数据库原理 大三上 关系模型、sql、数据库设计、规范化与事务处理。 关系模型 sql 事务">
+          <div class="course-number">02</div>
+          <div class="course-meta">大三上 · 18 页</div>
+          <h2>数据库原理</h2>
+          <p>关系模型、SQL、数据库设计、规范化与事务处理。</p>
+          <div class="tags"><span>关系模型</span><span>SQL</span><span>事务</span></div>
+          <div class="card-actions">
+            <a class="primary" href="https://github.com/yzbcs/CS-courses-for-CUMTBers/blob/main/courses/junior-fall/database-systems/README.md">阅读笔记</a>
+            <a href="assets/downloads/database-systems.pdf" download>下载 PDF</a>
+          </div>
+        </article>
+
+        <article class="course-card" data-semester="junior-fall" data-search="操作系统 大三上 进程与线程、调度、同步、内存管理和文件系统。 进程 内存管理 文件系统">
+          <div class="course-number">03</div>
+          <div class="course-meta">大三上 · 9 页</div>
+          <h2>操作系统</h2>
+          <p>进程与线程、调度、同步、内存管理和文件系统。</p>
+          <div class="tags"><span>进程</span><span>内存管理</span><span>文件系统</span></div>
+          <div class="card-actions">
+            <a class="primary" href="https://github.com/yzbcs/CS-courses-for-CUMTBers/blob/main/courses/junior-fall/operating-systems/README.md">阅读笔记</a>
+            <a href="assets/downloads/operating-systems.pdf" download>下载 PDF</a>
+          </div>
+        </article>
+
+        <article class="course-card" data-semester="junior-spring" data-search="大型实用数据库概论 大三下 面向大型实用数据库系统的概念与课程要点。 数据库 大型系统 课程概论">
+          <div class="course-number">04</div>
+          <div class="course-meta">大三下 · 1 页</div>
+          <h2>大型实用数据库概论</h2>
+          <p>面向大型实用数据库系统的概念与课程要点。</p>
+          <div class="tags"><span>数据库</span><span>大型系统</span><span>课程概论</span></div>
+          <div class="card-actions">
+            <a class="primary" href="https://github.com/yzbcs/CS-courses-for-CUMTBers/blob/main/courses/junior-spring/advanced-practical-database/README.md">阅读笔记</a>
+            <a href="assets/downloads/advanced-practical-database.pdf" download>下载 PDF</a>
+          </div>
+        </article>
+
+        <article class="course-card" data-semester="junior-spring" data-search="计算机图形学 大三下 图形生成、几何变换、裁剪、曲线曲面与真实感绘制。 几何变换 裁剪 曲线曲面">
+          <div class="course-number">05</div>
+          <div class="course-meta">大三下 · 13 页</div>
+          <h2>计算机图形学</h2>
+          <p>图形生成、几何变换、裁剪、曲线曲面与真实感绘制。</p>
+          <div class="tags"><span>几何变换</span><span>裁剪</span><span>曲线曲面</span></div>
+          <div class="card-actions">
+            <a class="primary" href="https://github.com/yzbcs/CS-courses-for-CUMTBers/blob/main/courses/junior-spring/computer-graphics/README.md">阅读笔记</a>
+            <a href="assets/downloads/computer-graphics.pdf" download>下载 PDF</a>
+          </div>
+        </article>
+
+        <article class="course-card" data-semester="junior-spring" data-search="人工智能 大三下 知识表示、搜索推理、机器学习与专家系统。 知识表示 搜索 机器学习">
+          <div class="course-number">06</div>
+          <div class="course-meta">大三下 · 13 页</div>
+          <h2>人工智能</h2>
+          <p>知识表示、搜索推理、机器学习与专家系统。</p>
+          <div class="tags"><span>知识表示</span><span>搜索</span><span>机器学习</span></div>
+          <div class="card-actions">
+            <a class="primary" href="https://github.com/yzbcs/CS-courses-for-CUMTBers/blob/main/courses/junior-spring/artificial-intelligence/README.md">阅读笔记</a>
+            <a href="assets/downloads/artificial-intelligence.pdf" download>下载 PDF</a>
+          </div>
+        </article>
+
+        <article class="course-card" data-semester="junior-spring" data-search="数字图像处理 大三下 图像变换、增强、复原、分割与压缩等基础方法。 图像增强 图像分割 频域处理">
+          <div class="course-number">07</div>
+          <div class="course-meta">大三下 · 8 页</div>
+          <h2>数字图像处理</h2>
+          <p>图像变换、增强、复原、分割与压缩等基础方法。</p>
+          <div class="tags"><span>图像增强</span><span>图像分割</span><span>频域处理</span></div>
+          <div class="card-actions">
+            <a class="primary" href="https://github.com/yzbcs/CS-courses-for-CUMTBers/blob/main/courses/junior-spring/digital-image-processing/README.md">阅读笔记</a>
+            <a href="assets/downloads/digital-image-processing.pdf" download>下载 PDF</a>
+          </div>
+        </article>
+
+        <article class="course-card" data-semester="senior-fall" data-search="信息检索 大四上 文本采集、索引构建、查询处理、排序与效果评价。 倒排索引 排序 搜索引擎">
+          <div class="course-number">08</div>
+          <div class="course-meta">大四上 · 2 页</div>
+          <h2>信息检索</h2>
+          <p>文本采集、索引构建、查询处理、排序与效果评价。</p>
+          <div class="tags"><span>倒排索引</span><span>排序</span><span>搜索引擎</span></div>
+          <div class="card-actions">
+            <a class="primary" href="https://github.com/yzbcs/CS-courses-for-CUMTBers/blob/main/courses/senior-fall/information-retrieval/README.md">阅读笔记</a>
+            <a href="assets/downloads/information-retrieval.pdf" download>下载 PDF</a>
+          </div>
+        </article>
+      </div>
+      <p id="empty-state" class="empty-state" hidden>没有找到匹配的课程。</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>CUMTB 计算机科学课程笔记</p>
+    <p>为后来者留下一条更清楚的学习路径。</p>
+  </footer>
+  <script src="assets/site.js"></script>
+</body>
+</html>
