@@ -4,6 +4,18 @@
 
 [打开课程导航页](https://yzbcs.github.io/CS-courses-for-CUMTBers/)
 
+## 让 AI 陪你复习
+
+在[网页的 AI 复习入口](https://yzbcs.github.io/CS-courses-for-CUMTBers/#ai-study)选择课程和复习方式，复制指令后发给支持读取仓库的 Codex 或其他智能体。也可以把仓库克隆到智能体的工作区，再发送：
+
+```text
+请使用这个仓库的资料担任我的课程复习教练。先读取 README.md、AGENTS.md 和 docs/ai-study.md，再询问我要复习的课程、范围和时间安排。通过逐题问答诊断薄弱点，结合笔记讲解并给出变式练习；讲解和批改请引用实际读过的章节或图文页码。
+```
+
+支持问答复习、重点讲解和复习计划。部分习题、公式和图示只有图片，智能体需要能读图或 PDF；仅提供链接不代表它已经读取资料。这种用法不涉及模型训练。
+
+[查看完整复习指南](docs/ai-study.md) · [智能体读取约定](AGENTS.md)
+
 ## 课程目录
 
 | 学期 | 课程 | 页数 | PDF |
